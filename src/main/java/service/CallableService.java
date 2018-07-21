@@ -4,7 +4,12 @@ import java.util.concurrent.Callable;
 
 public class CallableService implements Callable{
     @Override
-    public Integer call() throws Exception {
-        return 1;
+    public String call()  {
+        try {
+            Thread.sleep(1000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        return Thread.currentThread().getName()
     }
 }
