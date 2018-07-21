@@ -1,0 +1,28 @@
+INFO    2018-07-21 18:10:27,503 [main] GenericClass  - 
+
+
+		###### Using Callable Interface ######
+INFO    2018-07-21 18:10:28,553 [main] GenericClass  - pool-1-thread-1
+INFO    2018-07-21 18:10:28,554 [main] GenericClass  - pool-1-thread-2
+INFO    2018-07-21 18:10:28,554 [main] GenericClass  - pool-1-thread-3
+INFO    2018-07-21 18:10:28,554 [main] GenericClass  - pool-1-thread-4
+INFO    2018-07-21 18:10:28,554 [main] GenericClass  - pool-1-thread-5
+INFO    2018-07-21 18:10:29,554 [main] GenericClass  - pool-1-thread-4
+INFO    2018-07-21 18:10:29,555 [main] GenericClass  - pool-1-thread-1
+INFO    2018-07-21 18:10:29,555 [main] GenericClass  - pool-1-thread-5
+INFO    2018-07-21 18:10:29,557 [main] GenericClass  - pool-1-thread-3
+INFO    2018-07-21 18:10:29,557 [main] GenericClass  - pool-1-thread-2
+INFO    2018-07-21 18:10:29,558 [main] GenericClass  - 
+
+
+		###### Using Lambda Expression ######
+INFO    2018-07-21 18:10:30,584 [main] GenericClass  - pool-2-thread-1
+INFO    2018-07-21 18:10:30,585 [main] GenericClass  - pool-2-thread-2
+INFO    2018-07-21 18:10:30,593 [main] GenericClass  - pool-2-thread-3
+INFO    2018-07-21 18:10:30,593 [main] GenericClass  - pool-2-thread-4
+INFO    2018-07-21 18:10:30,593 [main] GenericClass  - pool-2-thread-5
+INFO    2018-07-21 18:10:31,587 [main] GenericClass  - pool-2-thread-2
+INFO    2018-07-21 18:10:31,587 [main] GenericClass  - pool-2-thread-1
+INFO    2018-07-21 18:10:31,595 [main] GenericClass  - pool-2-thread-3
+INFO    2018-07-21 18:10:31,595 [main] GenericClass  - pool-2-thread-5
+INFO    2018-07-21 18:10:31,595 [main] GenericClass  - pool-2-thread-4
