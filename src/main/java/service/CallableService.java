@@ -10,6 +10,6 @@ public class CallableService implements Callable{
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        return Thread.currentThread().getName()
+        return Thread.currentThread().getName();
     }
 }
