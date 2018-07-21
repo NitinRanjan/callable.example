@@ -9,12 +9,12 @@ import java.util.Queue;
 import java.util.concurrent.*;
 
 public class Driver {
-    static  Logger DriverLogger = Logger.getLogger("GenericClass");
+    private static  Logger DriverLogger = Logger.getLogger("GenericClass");
     public static void main(String... args) {
         PropertyConfigurator.configure("log4j.properties");
-        DriverLogger.info("\n\n\n###### Using Callable Interface ######");
+        DriverLogger.info("\n\n\n\t\t###### Using Callable Interface ######");
         callableUsingCallableInterface();
-        DriverLogger.info("\n\n\n###### Using Lambda Expression ######");
+        DriverLogger.info("\n\n\n\t\t###### Using Lambda Expression ######");
         callableUsingLambda();
     }
 
